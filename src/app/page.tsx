@@ -1,12 +1,12 @@
-import { Toaster } from "@/components/ui/toaster";
-import { Toast } from "@radix-ui/react-toast";
-import Image from "next/image";
+import { Button } from "@/components/ui/button"
 
-export default function Home() {
+
+const page = () => {
   return (
-    <div className="">
-      
-      
+    <div className="flex justify-between items-center bg-slate-600" >
+    
     </div>
-  );
+  )
 }
+
+export default page
